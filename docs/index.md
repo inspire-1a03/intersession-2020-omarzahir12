@@ -6,7 +6,7 @@ Note that comments (such as this) will not appear in the final markdown document
 -->
 
 
-## Day 1: Reflection
+## Day 1
 <!--
 In this section, provide a ~250 word reflection on your first day of the module, and discuss why you're interested in this module and what you hope to take away from it.
 
@@ -27,7 +27,7 @@ Replace the elements below to insert your picture.
 ![Button Pressed](images/IMG_4503[1].JPG "This is the Button Pressed")
 ![Button Unpressed](images/IMG_4504[1].JPG "This is the Button not Pressed!")
 
-## Day 2: Results
+## Day 2
 <!--
 Upload your fully-commented Arduino sketch from your final Day 2 build task--a thermometer connected to an RDB LED--into your GitHub repository.
 Provide a short (~150 words) summary of your work on this circuit:
@@ -37,8 +37,12 @@ Provide a short (~150 words) summary of your work on this circuit:
 - Be sure to link to your code (in your GitHub repository) in the text of your response.
 -->
 
-Thermometer_Code.ino
-![Thermometer Code](code/Thermometer_Code.ino "This is the Code!")
+The device uses the thermistor as an input for the temperature and does so by providing power to one end of the thermistor, and having the other end connected to both the ground and an input pin that will send the temperature data to the computer. Based on the reading, the computer will adjust the RGB LED colors which is connected to three other pins, each controlling one of the primary colors, which we already set up in the previous exercise.
+
+I got stuck on this exercise for a bit because unlike for all the exercises prior, the circuit diagram was not graphical and was a bit unintuitive. While I understood most of it, the branching aspect of the diagram confused me, and to clarify the concept I had to view Dr. Jay's tutorial video, which made it very simple. I also learnt that the positive and negative rails on either side of the breadboard span only half the length, which is why I was getting NAN errors for a while.
+
+This is the code:
+[Thermometer Code](code/Thermometer_Code.ino "This is the Code!")
 ## Arduino build-off results
 <!--
 Upload your fully-commented Arduino sketch from the final product of your Arduino build-off into the top-level of your module GitHub repository.
