@@ -37,6 +37,8 @@ Provide a short (~150 words) summary of your work on this circuit:
 - Be sure to link to your code (in your GitHub repository) in the text of your response.
 -->
 
+Thermometer_Code.ino
+![Thermometer Code](code/Thermometer_Code.ino "This is the Code!")
 ## Arduino build-off results
 <!--
 Upload your fully-commented Arduino sketch from the final product of your Arduino build-off into the top-level of your module GitHub repository.
