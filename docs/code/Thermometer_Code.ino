@@ -1,3 +1,5 @@
+// Coded by Mohammad Omar Zahir on Wednesday May 20th, 2020
+
 /*
  * Inputs ADC Value from Thermistor and outputs Temperature in Celsius
  *  requires: include <math.h>
