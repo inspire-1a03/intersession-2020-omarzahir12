@@ -1,4 +1,4 @@
-# Add your page title and name here
+# Omar Zahir: ELectronics for the Rest of Us!
 <!--
 Welcome to your project page for Electronics for the Rest of Us. You'll use this page to describe and showcase your work throughout the module. 
 A place for each deliverable has been created below for you in this markdown document. 
@@ -14,6 +14,9 @@ You're also asked to insert a photo that represents your accomplishments on your
 - Take a photo of you working or one of your circuits and upload it to the /docs/images/ folder of this repository. 
 - Then, insert your photo into your document by modifying the markdown example that has been inserted below.
 -->
+Prior to this course I had some experience with GitHub as I am in Computer Science and it is primarily used for uploading code. However, we were using the command line version of GitHub, so this was my first time interacting with GitHub on the web. Similarly, I was also not aware of the great resource also provided by GitHub, GitHub pages. Previously, any website or web development that I had done was through the HTML and CSS development tools, but thanks to GitHub Pages, I realize it is actually really easy and intuitive to set up a simple web page for a small task, not to mention the fact that it is hosted by GitHub so it's free. Similarly, I also had experience with Markdown as I was creating README files for some of my projects, but I did not know about all the interesting and intricate features like creating tables, embedding pictures and video, and even adding emoji!
+
+As far as Arduino is considered, I am honestly blown away by the potential and creative possibilities. Me and my friends once used an Arduino for one of our science fair projects in high school but I did not actually get a chance to work on the Arduino part, and now I regret it big time. Being interested in coding, I always have a complaint about how the result of our code is hardly ever tangible, and we can't interact with it, but Arduino makes it possible to test and experiment with your code and see those results in the real world.
 
 <!--
 Inserting an image takes the form: 
