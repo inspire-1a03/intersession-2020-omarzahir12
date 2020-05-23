@@ -66,10 +66,13 @@ float Thermistor(int RawADC) {
   return Temp;                                      // Return the Temperature
 }
 
-int redPin = 11;
+//set the pin numbers for each color
+
+int redPin = 11;                                    
 int greenPin = 10;
 int bluePin = 9;
 
+// Create Function to change color
 void setColor(int red, int green, int blue)
 {
   analogWrite(redPin, red);
@@ -77,6 +80,7 @@ void setColor(int red, int green, int blue)
   analogWrite(bluePin, blue);  
 }
 
+// set up the pins as output
 void setup() {
   Serial.begin(115200);
   pinMode(redPin, OUTPUT);
