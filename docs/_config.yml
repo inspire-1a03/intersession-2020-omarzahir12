@@ -7,4 +7,6 @@ relative_links:
 include:
 
 title: Omar Zahir's Arduino Project!
-description: INSPIRE 1AO3 - Electronics For The Rest Of Us
+description: INSPIRE 1AO3: Electronics For The Rest Of Us!
+
+theme: jekyll-theme-slate
