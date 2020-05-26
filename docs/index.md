@@ -1,4 +1,4 @@
-# Omar Zahir: ELectronics for the Rest of Us!
+# Omar Zahir: Electronics for the Rest of Us!
 <!--
 Welcome to your project page for Electronics for the Rest of Us. You'll use this page to describe and showcase your work throughout the module. 
 A place for each deliverable has been created below for you in this markdown document. 
