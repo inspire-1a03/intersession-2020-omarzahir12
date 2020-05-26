@@ -71,7 +71,7 @@ As this is created to be a game, it can be used by almost anyone for entertainme
 ### Code Snippet
 Since my code is quite repetitive, this snippet of code explains mostly how all the things play out, and the descriptions for the code is described above.
 
-Code:
+[Code](code/Complete_Final_Project.ino):
 ```
   digitalWrite(led3, LOW);      // turn the LED off by making the voltage LOW
   // Flash light Green
@@ -112,7 +112,7 @@ Note that this video won't show when previewing the document in GitHub--it only 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/roVPfdigTYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Final reflection & summary
+## Final Reflection & Summary
 <!--
 In ~300 words:
 - Summarize your experience in this module. What you learned, what you liked, what you found challenging.
