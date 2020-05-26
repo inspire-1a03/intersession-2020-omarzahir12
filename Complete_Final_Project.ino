@@ -34,6 +34,7 @@ void loop() {
   Serial.print(t,1);
   //Serial.print(val,0);    
   Serial.println(""); 
+  // Flash light Red
   digitalWrite(led1, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(t/2);                      // wait for 1/2 a second
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
@@ -50,6 +51,7 @@ void loop() {
   }
   delay(t/2);                      // wait for 1/2 a second
   digitalWrite(led1, LOW);    // turn the LED off by making the voltage LOW
+  // Flash light Orange
   digitalWrite(led2, HIGH);    // turn the LED on (HIGH is the voltage level)
   delay(t/2);                      // wait for 1/2 a second
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
@@ -66,6 +68,7 @@ void loop() {
   }
   delay(t/2);                      // wait for 1/2 a second
   digitalWrite(led2, LOW);     // turn the LED off by making the voltage LOW
+  // Flash light Yellow
   digitalWrite(led3, HIGH);     // turn the LED on (HIGH is the voltage level)
   delay(t/2);                      // wait for 1/2 a second
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
@@ -82,6 +85,7 @@ void loop() {
   }
   delay(t/2);                      // wait for 1/2 a second
   digitalWrite(led3, LOW);      // turn the LED off by making the voltage LOW
+  // Flash light Green
   digitalWrite(led4, HIGH);     // turn the LED on (HIGH is the voltage level)
   delay(t/2);                      // wait for 1/2 a second
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
@@ -98,6 +102,7 @@ void loop() {
   }
   delay(t/2);                      // wait for 1/2 a second
   digitalWrite(led4, LOW);      // turn the LED off by making the voltage LOW
+  // Flash light Blue
   digitalWrite(led5, HIGH);     // turn the LED on (HIGH is the voltage level) 
   delay(t/2);
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
