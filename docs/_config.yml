@@ -6,7 +6,5 @@ relative_links:
   collections: true
 include:
 
-title: Omar Zahir's Arduino Project!
-description: INSPIRE 1AO3: Electronics For The Rest Of Us!
-
-theme: jekyll-theme-slate
+title: edit your title in /docs/_config.yml
+description: edit your description in /docs/_config.yml
