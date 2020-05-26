@@ -68,7 +68,7 @@ For my final project, I decided to make a game that mimics those found in arcade
 ### Purpose and Potential uses
 As this is created to be a game, it can be used by almost anyone for entertainment purposes, especially in the time of COVID-19 where everyone is locked at home, and bored out of their minds. I also think my game has other applications like skill testing for reflexes, and friendly competitions that can be hosted to determine who is more skillful. Since the game is also so easy to set up and requires very basic sensors, virtually anyone with an arduino can set it up in no time and get playing!
 
-## Code Snippet
+### Code Snippet
 Since my code is quite repetitive, this snippet of code explains mostly how all the things play out, and the descriptions for the code is described above.
 
 Code:
