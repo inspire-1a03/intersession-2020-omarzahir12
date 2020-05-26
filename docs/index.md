@@ -72,7 +72,8 @@ As this is created to be a game, it can be used by almost anyone for entertainme
 Since my code is quite repetitive, this snippet of code explains mostly how all the things play out, and the descriptions for the code is described above.
 
 Code:
-` digitalWrite(led3, LOW);      // turn the LED off by making the voltage LOW
+```
+  digitalWrite(led3, LOW);      // turn the LED off by making the voltage LOW
   // Flash light Green
   digitalWrite(led4, HIGH);     // turn the LED on (HIGH is the voltage level)
   delay(t/2);                      // wait for 1/2 a second
@@ -91,7 +92,8 @@ Code:
   delay(t/2);                      // wait for 1/2 a second
   digitalWrite(led4, LOW);      // turn the LED off by making the voltage LOW
   // Flash light Blue
-  digitalWrite(led5, HIGH);     // turn the LED on (HIGH is the voltage level)`
+  digitalWrite(led5, HIGH);     // turn the LED on (HIGH is the voltage level)
+```
 
 <!--
 Below is a general markdown table template. 
