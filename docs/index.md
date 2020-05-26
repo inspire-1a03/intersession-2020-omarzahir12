@@ -68,6 +68,31 @@ For my final project, I decided to make a game that mimics those found in arcade
 ### Purpose and Potential uses
 As this is created to be a game, it can be used by almost anyone for entertainment purposes, especially in the time of COVID-19 where everyone is locked at home, and bored out of their minds. I also think my game has other applications like skill testing for reflexes, and friendly competitions that can be hosted to determine who is more skillful. Since the game is also so easy to set up and requires very basic sensors, virtually anyone with an arduino can set it up in no time and get playing!
 
+## Code Snippet
+Since my code is quite repetitive, this snippet of code explains mostly how all the things play out, and the descriptions for the code is described above.
+
+Code:
+` digitalWrite(led3, LOW);      // turn the LED off by making the voltage LOW
+  // Flash light Green
+  digitalWrite(led4, HIGH);     // turn the LED on (HIGH is the voltage level)
+  delay(t/2);                      // wait for 1/2 a second
+  buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
+  if (buttonState == HIGH) {     // check if the pushbutton is pressed. If it is, the buttonState is HIGH
+    tone(buzzerPin, 100, 500);  // Incorrect Buzzer
+    // Flash Light Green
+    digitalWrite(led4, HIGH);
+    delay(200);
+    digitalWrite(led4, LOW);
+    delay(200);
+    digitalWrite(led4, HIGH);
+    delay(200);
+    digitalWrite(led4, LOW);
+  }
+  delay(t/2);                      // wait for 1/2 a second
+  digitalWrite(led4, LOW);      // turn the LED off by making the voltage LOW
+  // Flash light Blue
+  digitalWrite(led5, HIGH);     // turn the LED on (HIGH is the voltage level)`
+
 <!--
 Below is a general markdown table template. 
 You can find more information at these links: 
