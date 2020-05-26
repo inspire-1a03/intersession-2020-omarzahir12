@@ -18,11 +18,11 @@ int t = 0;
 void setup() {                
   // initialize the digital pin as an output.
   Serial.begin(115200);
-  pinMode(led1, OUTPUT);   
-  pinMode(led2, OUTPUT);  
-  pinMode(led3, OUTPUT);    
-  pinMode(led4, OUTPUT);
-  pinMode(led5, OUTPUT);
+  pinMode(led1, OUTPUT);  // Red 
+  pinMode(led2, OUTPUT);  // Orange
+  pinMode(led3, OUTPUT);  // Yellow  
+  pinMode(led4, OUTPUT);  // Green
+  pinMode(led5, OUTPUT);  // Blue
   pinMode(buttonPin, INPUT);
 }
 
@@ -39,6 +39,7 @@ void loop() {
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
   if (buttonState == HIGH) {     // check if the pushbutton is pressed. If it is, the buttonState is HIGH
     tone(buzzerPin, 100, 500);  // Incorrect Buzzer
+    // Flash light Red
     digitalWrite(led1, HIGH);
     delay(200);
     digitalWrite(led1, LOW);
@@ -54,6 +55,7 @@ void loop() {
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
   if (buttonState == HIGH) {     // check if the pushbutton is pressed. If it is, the buttonState is HIGH
     tone(buzzerPin, 100, 500);  // Incorrect Buzzer
+    // Flash light Orange
     digitalWrite(led2, HIGH);
     delay(200);
     digitalWrite(led2, LOW);
@@ -69,6 +71,7 @@ void loop() {
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
   if (buttonState == HIGH) {     // check if the pushbutton is pressed. If it is, the buttonState is HIGH
     tone(buzzerPin, 100, 500);  // Incorrect Buzzer
+    // Flash Light Yellow
     digitalWrite(led3, HIGH);
     delay(200);
     digitalWrite(led3, LOW);
@@ -84,6 +87,7 @@ void loop() {
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
   if (buttonState == HIGH) {     // check if the pushbutton is pressed. If it is, the buttonState is HIGH
     tone(buzzerPin, 100, 500);  // Incorrect Buzzer
+    // Flash Light Green
     digitalWrite(led4, HIGH);
     delay(200);
     digitalWrite(led4, LOW);
@@ -99,6 +103,7 @@ void loop() {
   buttonState = digitalRead(buttonPin); // read the state of the pushbutton value:
   if (buttonState == HIGH) {     // check if the pushbutton is pressed. If it is, the buttonState is HIGH
     tone(buzzerPin, 1000, 500);  // Correct Buzzer
+    // Flash all the lights together
     digitalWrite(led1, HIGH);
     digitalWrite(led2, HIGH);
     digitalWrite(led3, HIGH);
@@ -125,4 +130,3 @@ void loop() {
   }
   delay(t/2);
   digitalWrite(led5, LOW);      // turn the LED off by making the voltage LOW
-}
