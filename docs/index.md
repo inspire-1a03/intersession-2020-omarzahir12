@@ -55,7 +55,18 @@ In ~300 words, provide a final device description and product pitch:
 Finally, record a short (30 second) video of a 'product pitch' for your device. 
 - Upload the video to Youtube, and use the sample code below to embed your video.
 -->
+### Project Description and Code Overview
+For my final project, I decided to make a game that mimics those found in arcades, with the the lights flashing around in a large circle, and you have to click the button at the right time.
 
+| Feature | Description | Code Overview |
+|---------|-------------|-------------|
+| LED     |The LED flash one after another based on the speed, and tapping on the blue one is the objective. It is more intricate then just flashing, however, because on a correct press, when it is at blue, all the lights flash twice quickly, and if it was not blue, then the light at which it was presses flashes twice individually. |The code works by simply turning on one LED, letting it flash for a specific amount of delay, and then closing it and letting the other flash. On a correct response, all the LED flash twice, but on an incorrect response, only the incorrect is flashed.             |
+|Potentiometer         | Perhaps the coolest feature is the potentiometer, which varies the speed at which the LED flash, in other words, changing the difficulty of the game.             |The delay is determined at the starting of every loop by the potentiometer value, which is then stored in a variable and called by the delay function.             |
+|Button         |I have also set up the button, which is used to select the color by pressing the button when that color is flashing.             |Between each LED flash and close, the program checks for whether the button is pressed, and if so, depending on the color, it either flashes an individual light or all the lights, and plays the correct or incorrect buzzer sound.             |
+|Buzzer         |The buzzer is set up to indicate the correct and wrong press, with distinct sounds for each. The correct is higher frequncy and the incorrect is lower, but both are the same suration of half a second.             |Their are two distinct buzzer sounds, the correct one being at a higher frequency then the incrrect one. In the code it is located in the same desicion statement for the button presses.
+
+### Purpose and Potential uses
+As this is created to be a game, it can be used by almost anyone for entertainment purposes, especially in the time of COVID-19 where everyone is locked at home, and bored out of their minds. I also think my game has other applications like skill testing for reflexes, and friendly competitions that can be hosted to determine who is more skillful. Since the game is also so easy to set up and requires very basic sensors, virtually anyone with an arduino can set it up in no time and get playing!
 
 <!--
 Below is a general markdown table template. 
@@ -63,14 +74,6 @@ You can find more information at these links:
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables
 
 -->
-
-| Feature | Description | Other Notes |
-|---------|-------------|-------------|
-|         |             |             |
-|         |             |             |
-|         |          hello   |             |
-|         |             |             |
-
 
 <!--
 Below is an example of embedding a YouTube video in a markdown document for use in GitHub pages. 
